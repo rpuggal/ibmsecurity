@@ -79,9 +79,9 @@ def p(jdata):
 
 
 # Create a user credential for ISAM appliance
-u = ApplianceUser(username="admin@local", password="kiss2015")
+u = ApplianceUser(username="admin@local", password="xxxxxxx")
 # Create an ISAM appliance with above credential
-isam_server = ISAMAppliance(hostname="192.168.1.195", user=u, lmi_port=443)
+isam_server = ISAMAppliance(hostname="192.xx.yy.zz", user=u, lmi_port=443)
 
 # Get the current SNMP monitoring setup details
 #ibmsecurity.isam.base.snmp_monitoring.get(isamAppliance=isam_server)
