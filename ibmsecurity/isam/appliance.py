@@ -49,6 +49,7 @@ def _changes_available(isamAppliance):
         logger.info("pending changes found")
         return True
     else:
+        logger.info("NO pending changes found")
         return False
 
 
